@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Class</title>
+</head>
+<body> 
+    <center>
+    <fieldset>
+        <legend>Laptop Scheme</legend>
+    <form action="" method="get">
+        <div>
+            first Name: <input type="text" required name="firstName" >
+        </div>
+        <br>
+        <div>
+        Last Name:<input type="text" name="LastName" >
+    </div>
+    <br>
+    <div>
+        Email:<input type="email" name="email">
+    </div>
+    <br>
+    <div>
+        Enter your Nic number
+        <input type="number" name="NicNumber" id="">
+    </div>
+    <br>
+    <div>
+        what's your gender:
+        Male:<input type="radio" name="male" id="" value="Male">
+        female:<input type="radio" checked name="male" id="" value="female">
+        Others:<input type="radio" name="male" id="" value="Male">
+    </div>    
+    <br>
+    <div>
+        <p>which company laptop would you like to recieve</p>
+        <select name="brand" id="">
+            <option value="hp" >hp</option>
+            <option value="dell" selected>dell</option>
+            <option value="asus">asus</option>
+        </select>
+
+    </div>
+ <br>
+ <div>
+    <p>did You recived any laptop scholarship from any organization</p>
+    Yes: <input type="radio" name="yes" id="">
+    No: <input type="radio" name="No" id="">
+ </div>
+ <br>
+ <div>
+   <label for="check">are you egligible:</label> 
+    <input type="checkbox" name="egligible" id="check">
+ </div>
+ <br>
+ <div>
+ <label for="comment">Describle yourself</label>
+ <br>
+ <textarea name="intro" id="comment" cols="30" rows="10">Enter about yourself</textarea>
+ </div>
+ <br>
+ <div>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+ </div>
+    </form>
+</fieldset>
+</center>
+</body>
+
+</html>
